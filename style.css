@@ -1,0 +1,104 @@
+/* CSS - Descoperirea informațiilor greșite */
+
+/* Stil general */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #F3F7FC;
+    color: #172B4D;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Titlul aplicației */
+#titlu {
+    background-color: #4A90E2;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Scorul */
+#scor {
+    background-color: #8E44AD;
+    color: white;
+    padding: 12px;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Zona principală */
+#continut {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    border: 2px solid #4A90E2;
+}
+
+/* Căsuțe pentru informații și linkuri */
+input,
+textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #4A90E2;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #172B4D;
+}
+
+/* Butoane */
+button {
+    background-color: #8E44AD;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Efect la apăsarea cu mouse-ul */
+button:hover {
+    background-color: #6C3483;
+}
+
+/* Butonul START */
+#start {
+    background-color: #4A90E2;
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+/* Adaptare pentru telefon */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #continut {
+        padding: 15px;
+    }
+
+    input,
+    textarea {
+        width: 85%;
+    }
+
+    button {
+        width: 90%;
+    }
+}
